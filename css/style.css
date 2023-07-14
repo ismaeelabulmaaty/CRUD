@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #292a2b;
+}
+
+
+.quote {
+    position: relative;
+    font-family: 'Barlow Condensed', sans-serif;
+    max-width: 620px;
+    margin: 80px auto;
+    align-self: center;
+}
+
+
+.quote .h1 {
+    color: #e74848;
+    border: 2px solid #fff;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.quote .h1:after {
+    content: "";
+    position: absolute;
+    border: 2px solid #e74848;
+    border-radius: 0 50px 0 0;
+    width: 60px;
+    height: 60px;
+    bottom: -59px;
+    left: 50px;
+    border-bottom: none;
+    border-left: none;
+    z-index: 3;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    position: relative;
+    color: #e74848;
+    font-size: 2.8rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+}
+
+
+.quote .h1:before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    border: 6px solid #292a2b;
+    bottom: -3px;
+    left: 50px;
+    z-index: 2;
+}
+
+span {
+    color: #fff;
+}
+
+.btn-1 {
+    background-color: #e74848;
+    color: #fff;
+}
+
+.btn-1:hover {
+    border: 2px solid #e74848;
+}
+
+.semoon {
+    color: #e74848;
+}
+
+
+@media all and (max-width: 600px) {
+    h2 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+}
